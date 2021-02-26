@@ -1,0 +1,16 @@
+.work__block{
+    border-left: 6px solid #000;
+    border-right: 6px solid #000;
+    border-bottom: 6px solid #000;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+    @media (min-width: 600px) {
+        border-right: none;
+        width: 50%;
+    }
+}
+
+.work__paragraph{
+    margin: 0px;
+}
